@@ -1,1122 +1,278 @@
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Universal NewsNetwork</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet"
-  />
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Watch View United States
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
   <style>
-    body {
-      font-family: "Roboto", sans-serif;
-      background-color: #f5f7fa;
-      min-height: 100vh;
-    }
-    ::-webkit-scrollbar {
-      width: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #d1d5db;
-    }
-    ::-webkit-scrollbar-thumb {
-      background-color: #6b7280;
-      border-radius: 10px;
-      border: 2px solid #d1d5db;
+   body {
+      font-family: 'Inter', sans-serif;
     }
   </style>
-  <script type="text/javascript">
-    atOptions = {
-      key: "1442b155dce4cde1166d735cca353a9a",
-      format: "iframe",
-      height: 90,
-      width: 728,
-      params: {},
-    };
-  </script>
-  <script
-    type="text/javascript"
-    src="//www.highperformanceformat.com/1442b155dce4cde1166d735cca353a9a/invoke.js"
-    defer
-  ></script>
-  <script type="text/javascript">
-    atOptions = {
-      key: "b182962c5de8261f0f71608a6e0e27a2",
-      format: "iframe",
-      height: 90,
-      width: 728,
-      params: {},
-    };
-  </script>
-  <script
-    type="text/javascript"
-    src="//www.highperformanceformat.com/b182962c5de8261f0f71608a6e0e27a2/invoke.js"
-    defer
-  ></script>
-</head>
-<body class="text-gray-900 flex flex-col min-h-screen">
-  <header
-    class="bg-orange-700 bg-opacity-90 text-white shadow-md sticky top-0 z-50 backdrop-blur-md"
-  >
-    <div
-      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"
-    >
-      <a
-        aria-label="Go to homepage"
-        class="text-2xl font-extrabold tracking-wide hover:text-yellow-300 transition"
-        href="#"
-        id="home-link"
-        >Universal NewsNetwork
-        <span class="text-yellow-300 text-sm block font-normal"></span></a
-      >
-      <nav class="hidden md:flex space-x-8 font-semibold text-lg">
-        <a class="hover:text-yellow-300 transition" href="#" id="nav-home"
-          >Home</a
-        >
-        <a
-          class="hover:text-yellow-300 transition"
-          href="#features"
-          id="nav-features"
-          >Features</a
-        >
-        <a
-          class="hover:text-yellow-300 transition"
-          href="#catalog"
-          id="nav-catalog"
-          >Catalog</a
-        >
-        <a
-          class="hover:text-yellow-300 transition"
-          href="#contact"
-          id="nav-contact"
-          >Contact</a
-        >
-        <a class="hover:text-yellow-300 transition" href="#faq" id="nav-faq"
-          >FAQ</a
-        >
-      </nav>
-      <button
-        aria-label="Toggle menu"
-        class="md:hidden focus:outline-none"
-        id="mobile-menu-button"
-      >
-        <i class="fas fa-bars text-2xl"></i>
-      </button>
+ </head>
+ <body class="bg-gray-50 min-h-screen flex flex-col">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+     <img alt="Company logo with stylized letter W in blue and white" class="w-12 h-12" height="48" src="https://storage.googleapis.com/a1aa/image/65c534e6-6fff-4496-aa0c-bf183e90c9d1.jpg" width="48"/>
+     <h1 class="text-2xl font-semibold text-gray-800">
+      Watch View USA
+     </h1>
     </div>
-    <nav class="hidden md:hidden bg-orange-800 bg-opacity-95" id="mobile-menu">
-      <a
-        class="block px-4 py-3 border-b border-orange-600 font-semibold hover:bg-orange-900 transition"
-        href="#"
-        id="mobile-nav-home"
-        >Home</a
-      >
-      <a
-        class="block px-4 py-3 border-b border-orange-600 font-semibold hover:bg-orange-900 transition"
-        href="#features"
-        id="mobile-nav-features"
-        >Features</a
-      >
-      <a
-        class="block px-4 py-3 border-b border-orange-600 font-semibold hover:bg-orange-900 transition"
-        href="#catalog"
-        id="mobile-nav-catalog"
-        >Catalog</a
-      >
-      <a
-        class="block px-4 py-3 border-b border-orange-600 font-semibold hover:bg-orange-900 transition"
-        href="#contact"
-        id="mobile-nav-contact"
-        >Contact</a
-      >
-      <a
-        class="block px-4 py-3 font-semibold hover:bg-orange-900 transition"
-        href="#faq"
-        id="mobile-nav-faq"
-        >FAQ</a
-      >
+    <nav class="hidden md:flex space-x-6 text-gray-700 font-medium">
+     <a class="hover:text-blue-600 transition" href="#">
+      Home
+     </a>
+     <a class="hover:text-blue-600 transition" href="#">
+      News
+     </a>
+     <a class="hover:text-blue-600 transition" href="#">
+      Reviews
+     </a>
+     <a class="hover:text-blue-600 transition" href="#">
+      Guides
+     </a>
+     <a class="hover:text-blue-600 transition" href="#">
+      Contact
+     </a>
     </nav>
+    <button aria-label="Toggle menu" class="md:hidden text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-600" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav class="md:hidden bg-white border-t border-gray-200 hidden flex-col space-y-2 px-4 py-3" id="mobile-menu">
+    <a class="block text-gray-700 font-medium py-1 hover:text-blue-600 transition" href="#">
+     Home
+    </a>
+    <a class="block text-gray-700 font-medium py-1 hover:text-blue-600 transition" href="#">
+     News
+    </a>
+    <a class="block text-gray-700 font-medium py-1 hover:text-blue-600 transition" href="#">
+     Reviews
+    </a>
+    <a class="block text-gray-700 font-medium py-1 hover:text-blue-600 transition" href="#">
+     Guides
+    </a>
+    <a class="block text-gray-700 font-medium py-1 hover:text-blue-600 transition" href="#">
+     Contact
+    </a>
+   </nav>
   </header>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-    <div id="ad-top" class="flex justify-center mb-6">
-      <iframe
-        src="//www.highperformanceformat.com/b182962c5de8261f0f71608a6e0e27a2/invoke.js"
-        width="728"
-        height="90"
-        frameborder="0"
-        scrolling="no"
-        title="Advertisement"
-        aria-label="Advertisement banner"
-      ></iframe>
-    </div>
-  </div>
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 mb-16 flex-grow">
-    <section class="" id="home-section">
-      <section class="mb-12">
-        <h1
-          class="text-4xl font-extrabold text-orange-900 mb-4 drop-shadow-lg"
-        >
-          Universal NewsNetwork.com
-        </h1>
-        <p class="text-lg text-orange-900 max-w-3xl drop-shadow-md">
-          Your trusted source for Information Technology, National and
-          International News. Experience fast efficiency and real information
-          delivered fresh and attractive in dark orange style.
-        </p>
-      </section>
-      <section class="mb-16" id="features">
-        <h2 class="text-3xl font-bold text-orange-900 mb-8 drop-shadow-md">
-          Features
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <article
-            class="bg-orange-100 bg-opacity-80 rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition"
-          >
-            <i
-              class="fas fa-bolt text-orange-700 text-5xl mb-4 drop-shadow"
-            ></i>
-            <h3 class="text-xl font-semibold mb-2 text-orange-900">
-              Fast Efficiency
-            </h3>
-            <p class="text-orange-800">
-              Our platform delivers news quickly and efficiently so you stay
-              updated without delay.
-            </p>
-          </article>
-          <article
-            class="bg-orange-100 bg-opacity-80 rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition"
-          >
-            <i
-              class="fas fa-newspaper text-orange-700 text-5xl mb-4 drop-shadow"
-            ></i>
-            <h3 class="text-xl font-semibold mb-2 text-orange-900">
-              Real Information
-            </h3>
-            <p class="text-orange-800">
-              We provide authentic and verified news from trusted sources
-              worldwide.
-            </p>
-          </article>
-          <article
-            class="bg-orange-100 bg-opacity-80 rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition"
-          >
-            <i
-              class="fas fa-globe text-orange-700 text-5xl mb-4 drop-shadow"
-            ></i>
-            <h3 class="text-xl font-semibold mb-2 text-orange-900">
-              Global Coverage
-            </h3>
-            <p class="text-orange-800">
-              Stay informed with national and international news across all
-              major sectors.
-            </p>
-          </article>
-        </div>
-      </section>
-      <section class="mb-16" id="catalog">
-        <h2 class="text-3xl font-bold text-orange-900 mb-8 drop-shadow-md">
-          Latest News
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <article
-            class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col hover:scale-[1.02] transition-transform"
-          >
-            <img
-              alt="Information Technology news showing modern devices and coding concept"
-              class="w-full h-48 object-cover"
-              height="400"
-              loading="lazy"
-              src="https://storage.googleapis.com/a1aa/image/c73e4ca4-aa39-44c9-6f50-9051fb53c033.jpg"
-              width="600"
-            />
-            <div class="p-6 flex flex-col flex-grow">
-              <h3 class="text-xl font-semibold mb-2 text-orange-900">
-                Breakthrough in AI Technology Revolutionizes IT Industry
-              </h3>
-              <p class="text-gray-700 flex-grow">
-                Discover how the latest AI advancements are transforming software
-                development and IT infrastructure worldwide.
-              </p>
-              <button
-                aria-label="Read more about Breakthrough in AI Technology Revolutionizes IT Industry"
-                class="mt-4 inline-block text-orange-700 font-semibold hover:underline text-left focus:outline-none focus:ring-2 focus:ring-orange-500 rounded"
-                data-news="1"
-              >
-                Read More
-              </button>
-            </div>
-          </article>
-          <article
-            class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col hover:scale-[1.02] transition-transform"
-          >
-            <img
-              alt="National news showing government building with national flag waving"
-              class="w-full h-48 object-cover"
-              height="400"
-              loading="lazy"
-              src="https://storage.googleapis.com/a1aa/image/163e741f-d0d7-48b7-f99f-abd5e58b3ec7.jpg"
-              width="600"
-            />
-            <div class="p-6 flex flex-col flex-grow">
-              <h3 class="text-xl font-semibold mb-2 text-orange-900">
-                National Policy Updates Impacting Economy and Society
-              </h3>
-              <p class="text-gray-700 flex-grow">
-                Stay informed about the latest government policies and their
-                effects on the national economy and citizens.
-              </p>
-              <button
-                aria-label="Read more about National Policy Updates Impacting Economy and Society"
-                class="mt-4 inline-block text-orange-700 font-semibold hover:underline text-left focus:outline-none focus:ring-2 focus:ring-orange-500 rounded"
-                data-news="2"
-              >
-                Read More
-              </button>
-            </div>
-          </article>
-          <article
-            class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col hover:scale-[1.02] transition-transform"
-          >
-            <img
-              alt="International news showing world map with multiple country flags"
-              class="w-full h-48 object-cover"
-              height="400"
-              loading="lazy"
-              src="https://storage.googleapis.com/a1aa/image/0f9c1172-d00c-491e-7c9b-cfb53d6fb2c3.jpg"
-              width="600"
-            />
-            <div class="p-6 flex flex-col flex-grow">
-              <h3 class="text-xl font-semibold mb-2 text-orange-900">
-                Global Summit Addresses Climate Change Challenges
-              </h3>
-              <p class="text-gray-700 flex-grow">
-                Leaders from around the world convene to discuss urgent climate
-                action and sustainable development goals.
-              </p>
-              <button
-                aria-label="Read more about Global Summit Addresses Climate Change Challenges"
-                class="mt-4 inline-block text-orange-700 font-semibold hover:underline text-left focus:outline-none focus:ring-2 focus:ring-orange-500 rounded"
-                data-news="3"
-              >
-                Read More
-              </button>
-            </div>
-          </article>
-        </div>
-      </section>
-      <section class="mb-16 max-w-3xl mx-auto" id="contact">
-        <h2
-          class="text-3xl font-bold text-orange-900 mb-8 text-center drop-shadow-md"
-        >
-          Contact Us
-        </h2>
-        <form
-          action="#"
-          aria-label="Contact form"
-          class="bg-orange-100 bg-opacity-80 rounded-lg shadow-lg p-8 space-y-6"
-          id="contact-form"
-          method="POST"
-        >
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-2"
-              for="name"
-              >Name</label
-            >
-            <input
-              autocomplete="name"
-              class="w-full px-4 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="name"
-              name="name"
-              placeholder="Your full name"
-              required
-              type="text"
-            />
-          </div>
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-2"
-              for="email"
-              >Email</label
-            >
-            <input
-              autocomplete="email"
-              class="w-full px-4 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="email"
-              name="email"
-              placeholder="hiemkimtoun@gmail.com"
-              required
-              type="email"
-            />
-          </div>
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-2"
-              for="phone"
-              >Telephone Number</label
-            >
-            <input
-              autocomplete="tel"
-              class="w-full px-4 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="phone"
-              name="phone"
-              placeholder="0977008435"
-              required
-              type="tel"
-            />
-          </div>
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-2"
-              for="message"
-              >Message</label
-            >
-            <textarea
-              class="w-full px-4 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="message"
-              name="message"
-              placeholder="Write your message here..."
-              required
-              rows="4"
-            ></textarea>
-          </div>
-          <button
-            class="w-full bg-orange-700 text-white font-bold py-3 rounded-md hover:bg-orange-800 transition focus:outline-none focus:ring-4 focus:ring-orange-500"
-            type="submit"
-          >
-            Send Message
-          </button>
-          <p
-            class="mt-4 text-center text-green-700 font-semibold hidden"
-            id="form-status"
-          ></p>
-        </form>
-        <div
-          class="mt-10 text-center text-orange-900 space-y-3 drop-shadow-md"
-        >
-          <p>
-            <i class="fas fa-envelope mr-2 text-orange-700"></i>Email:
-            <a
-              class="text-orange-700 hover:underline"
-              href="mailto:hiemkimtoun@gmail.com"
-              >hiemkimtoun@gmail.com</a
-            >
-          </p>
-          <p>
-            <i class="fas fa-phone-alt mr-2 text-orange-700"></i>Telephone:
-            <a class="text-orange-700 hover:underline" href="tel:+84977008435"
-              >0977008435</a
-            >
-          </p>
-          <div class="flex justify-center space-x-6 mt-4">
-            <a
-              aria-label="YouTube"
-              class="text-orange-700 hover:text-orange-900 text-3xl"
-              href="https://youtube.com/@coolworldslab-ex1re?si=8lq_r2DpFueLSD5a"
-              rel="noopener"
-              target="_blank"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a
-              aria-label="Facebook"
-              class="text-orange-700 hover:text-orange-900 text-3xl"
-              href="https://www.facebook.com/share/1BoedVsFtJ/"
-              rel="noopener"
-              target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-      <section class="max-w-4xl mx-auto" id="faq">
-        <h2
-          class="text-3xl font-bold text-orange-900 mb-8 text-center drop-shadow-md"
-        >
-          Frequently Asked Questions
-        </h2>
-        <div class="space-y-6">
-          <details
-            class="bg-orange-100 bg-opacity-80 rounded-lg p-6 shadow-lg"
-          >
-            <summary
-              class="font-semibold cursor-pointer text-orange-800 text-lg"
-            >
-              What kind of news do you provide?
-            </summary>
-            <p class="mt-3 text-orange-900">
-              We provide Information Technology, National, and International news
-              with a focus on fast and reliable information.
-            </p>
-          </details>
-          <details
-            class="bg-orange-100 bg-opacity-80 rounded-lg p-6 shadow-lg"
-          >
-            <summary
-              class="font-semibold cursor-pointer text-orange-800 text-lg"
-            >
-              How often is the news updated?
-            </summary>
-            <p class="mt-3 text-orange-900">
-              Our news is updated multiple times daily to ensure you get the
-              latest and most accurate information.
-            </p>
-          </details>
-          <details
-            class="bg-orange-100 bg-opacity-80 rounded-lg p-6 shadow-lg"
-          >
-            <summary
-              class="font-semibold cursor-pointer text-orange-800 text-lg"
-            >
-              Can I contact you for news tips or inquiries?
-            </summary>
-            <p class="mt-3 text-orange-900">
-              Yes, please use the contact form or email us directly at
-              hiemkimtoun@gmail.com. We welcome your input and questions.
-            </p>
-          </details>
-          <details
-            class="bg-orange-100 bg-opacity-80 rounded-lg p-6 shadow-lg"
-          >
-            <summary
-              class="font-semibold cursor-pointer text-orange-800 text-lg"
-            >
-              Do you have social media channels?
-            </summary>
-            <p class="mt-3 text-orange-900">
-              Yes, follow us on YouTube and Facebook for video content and
-              updates.
-            </p>
-          </details>
-          <details
-            class="bg-orange-100 bg-opacity-80 rounded-lg p-6 shadow-lg"
-          >
-            <summary
-              class="font-semibold cursor-pointer text-orange-800 text-lg"
-            >
-              Is the website mobile-friendly?
-            </summary>
-            <p class="mt-3 text-orange-900">
-              Absolutely! Our website is fully responsive and optimized for all
-              devices including smartphones and tablets.
-            </p>
-          </details>
-        </div>
-      </section>
-      <section class="max-w-4xl mx-auto" id="comments-section">
-        <h2
-          class="text-3xl font-bold text-orange-900 mb-8 text-center drop-shadow-md"
-        >
-          Comments
-        </h2>
-        <form
-          aria-label="Comments form"
-          class="bg-orange-100 bg-opacity-80 rounded-lg shadow-lg p-6 mb-8 space-y-4"
-          id="comment-form"
-        >
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-1"
-              for="comment-name"
-              >Name</label
-            >
-            <input
-              autocomplete="name"
-              class="w-full px-3 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="comment-name"
-              name="comment-name"
-              placeholder="Your name"
-              required
-              type="text"
-            />
-          </div>
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-1"
-              for="comment-email"
-              >Email</label
-            >
-            <input
-              autocomplete="email"
-              class="w-full px-3 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="comment-email"
-              name="comment-email"
-              placeholder="Your email"
-              required
-              type="email"
-            />
-          </div>
-          <div>
-            <label
-              class="block text-orange-900 font-semibold mb-1"
-              for="comment-message"
-              >Comment</label
-            >
-            <textarea
-              class="w-full px-3 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
-              id="comment-message"
-              name="comment-message"
-              placeholder="Write your comment here..."
-              required
-              rows="4"
-            ></textarea>
-          </div>
-          <button
-            class="bg-orange-700 text-white font-bold py-2 px-6 rounded-md hover:bg-orange-800 transition focus:outline-none focus:ring-4 focus:ring-orange-500"
-            type="submit"
-          >
-            Submit Comment
-          </button>
-          <p
-            class="text-center text-green-700 font-semibold hidden"
-            id="comment-status"
-          ></p>
-        </form>
-        <div
-          class="space-y-6 max-h-96 overflow-y-auto px-4 py-2 bg-orange-50 rounded-lg shadow-inner"
-          id="comments-list"
-        ></div>
-      </section>
-    </section>
-    <section class="hidden max-w-4xl mx-auto" id="news-detail-section">
-      <button
-        aria-label="Come back to news list"
-        class="mb-6 inline-flex items-center text-orange-700 font-semibold hover:underline focus:outline-none"
-        id="back-button"
-      >
-        <i class="fas fa-arrow-left mr-2"></i>Come back
-      </button>
-      <article
-        class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col"
-      >
-        <img
-          alt=""
-          class="w-full h-64 md:h-96 object-cover"
-          height="400"
-          id="news-image"
-          loading="lazy"
-          src=""
-          width="600"
-        />
-        <div class="p-6 flex flex-col">
-          <h3 class="text-3xl font-bold mb-4 text-orange-900" id="news-title"></h3>
-          <p class="text-gray-800 text-lg whitespace-pre-line" id="news-content"></p>
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer
-    class="bg-orange-700 bg-opacity-90 text-white py-6 backdrop-blur-md"
-  >
-    <div
-      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center"
-    >
-      <p class="text-sm drop-shadow">
-        © 2024 Universal NewsNetwork.com. All rights reserved.
-      </p>
-      <div class="flex space-x-6 mt-4 md:mt-0">
-        <a
-          aria-label="YouTube"
-          class="hover:text-yellow-300 text-xl"
-          href="https://youtube.com/@coolworldslab-ex1re?si=8lq_r2DpFueLSD5a"
-          rel="noopener"
-          target="_blank"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a
-          aria-label="Facebook"
-          class="hover:text-yellow-300 text-xl"
-          href="https://www.facebook.com/share/1BoedVsFtJ/"
-          rel="noopener"
-          target="_blank"
-          ><i class="fab fa-facebook"></i
-        ></a>
+  <main class="container mx-auto px-4 py-8 flex-grow">
+   <section class="mb-12">
+    <h2 class="text-3xl font-semibold text-gray-800 mb-6">
+     Top Watches Trending in the United States
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Luxury watch with silver dial and black leather strap on a wooden table with soft natural light" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/5cd4cc95-7c50-45ca-c5ec-a62052d864ca.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        Omega Seamaster Diver 300M
+       </h3>
+       <p class="text-gray-700 mb-3">
+        A classic dive watch with a ceramic bezel and helium escape valve, perfect for underwater adventures.
+       </p>
+       <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+        Read More
+        <i class="fas fa-arrow-right ml-2">
+        </i>
+       </a>
       </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Smartwatch with black silicone band and colorful digital display showing fitness stats on a white background" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/ee6f6821-f378-499e-42b8-fbaa0f4b8fda.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        Apple Watch Series 9
+       </h3>
+       <p class="text-gray-700 mb-3">
+        The latest Apple Watch with enhanced health tracking, faster processor, and brighter always-on display.
+       </p>
+       <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+        Read More
+        <i class="fas fa-arrow-right ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Classic gold watch with white dial and brown leather strap on a dark wooden surface with warm lighting" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/58e1ea97-cce7-477f-3e13-b1eec506597c.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        Rolex Datejust 36
+       </h3>
+       <p class="text-gray-700 mb-3">
+        Timeless elegance with a fluted bezel and jubilee bracelet, a symbol of prestige and style.
+       </p>
+       <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+        Read More
+        <i class="fas fa-arrow-right ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Sporty chronograph watch with black dial and stainless steel bracelet on a concrete surface with natural light" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/fb74e3ac-2efe-4727-8a06-0b568b924f80.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        TAG Heuer Carrera Calibre 16
+       </h3>
+       <p class="text-gray-700 mb-3">
+        A robust chronograph with tachymeter bezel, perfect for motorsport enthusiasts and collectors.
+       </p>
+       <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+        Read More
+        <i class="fas fa-arrow-right ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Minimalist watch with white dial and black mesh strap on a marble surface with soft shadows" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/9786554e-702d-4e39-7283-6456ef561332.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        Junghans Max Bill
+       </h3>
+       <p class="text-gray-700 mb-3">
+        Bauhaus-inspired design with clean lines and a simple dial, ideal for everyday wear.
+       </p>
+       <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+        Read More
+        <i class="fas fa-arrow-right ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Dive watch with blue dial and black rubber strap submerged partially in water with bubbles" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/ad376e17-3466-461f-bfe5-107ba389d6dc.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        Seiko Prospex Turtle
+       </h3>
+       <p class="text-gray-700 mb-3">
+        Affordable dive watch with a cushion case and reliable automatic movement for adventurers.
+       </p>
+       <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+        Read More
+        <i class="fas fa-arrow-right ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
     </div>
+   </section>
+   <section>
+    <h2 class="text-3xl font-semibold text-gray-800 mb-6">
+     Latest Watch News
+    </h2>
+    <ul class="space-y-6">
+     <li class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Rolex Announces New Submariner Models for 2024
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Rolex has unveiled its latest Submariner collection featuring updated movements and refreshed designs.
+      </p>
+      <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+       Read Full Article
+       <i class="fas fa-arrow-right ml-2">
+       </i>
+      </a>
+     </li>
+     <li class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Apple Watch Series 9 Review: A Worthy Upgrade?
+      </h3>
+      <p class="text-gray-700 mb-3">
+       We dive deep into the new features and performance improvements of the Apple Watch Series 9.
+      </p>
+      <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+       Read Full Article
+       <i class="fas fa-arrow-right ml-2">
+       </i>
+      </a>
+     </li>
+     <li class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       How to Choose the Perfect Watch for Your Lifestyle
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Our comprehensive guide helps you select a watch that fits your daily needs and personal style.
+      </p>
+      <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+       Read Full Article
+       <i class="fas fa-arrow-right ml-2">
+       </i>
+      </a>
+     </li>
+     <li class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       The Rise of Smartwatches in the United States Market
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Exploring the growing popularity and technological advancements of smartwatches across the US.
+      </p>
+      <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+       Read Full Article
+       <i class="fas fa-arrow-right ml-2">
+       </i>
+      </a>
+     </li>
+     <li class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Top 5 Affordable Watches Under $500 in 2024
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Discover the best budget-friendly watches that offer great value without compromising style.
+      </p>
+      <a class="text-blue-600 font-semibold hover:underline inline-flex items-center" href="https://www.profitableratecpm.com/pbw3t1wp?key=67ad327ce4b7f65aaf816e60184abca6" target="_blank" rel="noopener noreferrer">
+       Read Full Article
+       <i class="fas fa-arrow-right ml-2">
+       </i>
+      </a>
+     </li>
+    </ul>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 mt-12">
+   <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
+    <p>
+     © 2024 Watch View USA. All rights reserved.
+    </p>
+    <div class="flex space-x-4 mt-3 md:mt-0">
+     <a aria-label="Facebook" class="hover:text-blue-600 transition" href="#">
+      <i class="fab fa-facebook fa-lg">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-blue-400 transition" href="#">
+      <i class="fab fa-twitter fa-lg">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-pink-600 transition" href="#">
+      <i class="fab fa-instagram fa-lg">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-blue-700 transition" href="#">
+      <i class="fab fa-linkedin fa-lg">
+      </i>
+     </a>
+    </div>
+   </div>
   </footer>
   <script>
-    const mobileMenuButton = document.getElementById("mobile-menu-button");
-    const mobileMenu = document.getElementById("mobile-menu");
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-    mobileMenuButton.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
     });
-
-    // News data for detail view
-    const newsData = {
-      1: {
-        title: "Breakthrough in AI Technology Revolutionizes IT Industry",
-        image:
-          "https://placehold.co/600x400/png?text=Information+Technology+News+Modern+Devices+and+Coding+Concept",
-        alt: "Information Technology news showing modern devices and coding concept",
-        content: `Discover how the latest AI advancements are transforming software development and IT infrastructure worldwide.
-
-In recent years, artificial intelligence (AI) has emerged as a transformative force across various sectors, but its impact on the IT industry has been particularly profound. As organizations increasingly rely on technology for their operations, the integration of advanced AI technologies is revolutionizing how IT departments function, enhancing efficiency, improving decision-making, and driving innovation.
-
-The Rise of AI in IT
-
-The IT industry has always been at the forefront of technological advancement, and the advent of AI is no exception. From machine learning (ML) algorithms that automate routine tasks to natural language processing (NLP) systems that enhance user interactions, AI is reshaping the very fabric of IT operations. The rapid development of AI tools and platforms has enabled IT professionals to harness data in unprecedented ways, leading to a more agile and responsive industry.
-
-Automation and Efficiency
-
-One of the most significant breakthroughs in AI technology is its ability to automate mundane and repetitive tasks. Robotic process automation (RPA) has gained traction in IT departments, allowing organizations to streamline processes such as software testing, system monitoring, and data entry. By reducing the manual workload, IT teams can focus on more strategic initiatives, fostering creativity and innovation.
-
-For example, AI-driven automation tools can quickly analyze large datasets, identify patterns, and provide actionable insights. This capability not only saves time but also minimizes human error, leading to more reliable outcomes. As a result, businesses can make data-driven decisions with confidence, ultimately improving operational efficiency.
-
-Enhanced Cybersecurity
-
-As cyber threats become more sophisticated, the need for robust security measures has never been greater. AI technology plays a crucial role in enhancing cybersecurity within the IT industry. Machine learning algorithms can analyze vast amounts of data to detect anomalies and potential threats in real time. This proactive approach allows organizations to respond to security breaches more effectively, minimizing damage and ensuring business continuity.
-
-Furthermore, AI-powered security systems can learn from previous attacks and adapt their defenses accordingly. This adaptive capability is essential in an ever-evolving threat landscape, enabling organizations to stay one step ahead of cybercriminals.
-
-Improved User Experience
-
-AI is also revolutionizing user experience in IT services. Chatbots and virtual assistants powered by NLP are becoming increasingly common in customer support, providing immediate assistance and resolving issues without human intervention. These AI-driven solutions can handle multiple queries simultaneously, reducing wait times and enhancing customer satisfaction.
-
-Moreover, AI can analyze user behavior and preferences, enabling IT teams to personalize services and improve overall engagement. By leveraging data insights, organizations can create tailored experiences that resonate with their users, ultimately fostering loyalty and driving growth.
-
-Data Management and Analytics
-
-The IT industry generates vast amounts of data daily, making effective data management crucial. AI technologies are enabling organizations to harness this data more efficiently. Advanced analytics powered by AI can uncover insights that were previously hidden, allowing businesses to make informed decisions based on real-time data.
-
-Predictive analytics, for instance, can forecast trends and behaviors, enabling IT departments to anticipate future challenges and opportunities. This forward-thinking approach not only enhances strategic planning but also gives organizations a competitive edge in the marketplace.
-
-The Future of AI in IT
-
-As we look to the future, the potential of AI in the IT industry is boundless. Emerging technologies such as quantum computing and edge computing are expected to further enhance AI capabilities, driving innovation to new heights. The integration of AI with other technologies, such as the Internet of Things (IoT) and blockchain, will create new opportunities for collaboration and efficiency.
-
-However, with great power comes great responsibility. As AI continues to evolve, ethical considerations surrounding its use will be paramount. Ensuring data privacy, preventing bias in algorithms, and promoting transparency will be essential in fostering trust in AI technologies.
-
-Conclusion
-
-The breakthrough in AI technology is revolutionizing the IT industry, paving the way for a future defined by innovation, efficiency, and enhanced user experiences. As organizations embrace AI-driven solutions, they are not only transforming their operations but also setting new standards for excellence in the digital age. As we continue to explore the vast potential of AI, the IT industry stands poised to lead the charge into a new era of technological advancement.
-
-In this dynamic landscape, the organizations that leverage AI effectively will undoubtedly emerge as the leaders of tomorrow, driving growth and redefining the possibilities of what technology can achieve.`,
-      },
-      2: {
-        title: "National Policy Updates Impacting Economy and Society",
-        image:
-          "https://placehold.co/600x400/png?text=National+News+Government+Building+with+Flag",
-        alt: "National news showing government building with national flag waving",
-        content: `Stay informed about the latest government policies and their effects on the national economy and citizens.
-
-In an increasingly interconnected world, national policies play a pivotal role in shaping the economic and social landscape of a country. Recent updates to national policies across various sectors have sparked significant discussions among stakeholders, as these changes carry the potential to influence everything from job creation and economic growth to social equity and environmental sustainability. This blog explores the key national policy updates and their implications for the economy and society.
-
-Economic Policies: Stimulating Growth and Innovation
-
-1. Tax Reforms
-
-One of the most impactful recent national policy updates has been in the realm of tax reform. Governments worldwide are reassessing their tax structures to stimulate economic growth, encourage investment, and promote fairness. For instance, changes in corporate tax rates can incentivize businesses to invest in local operations and create jobs. Lowering personal income tax rates can increase disposable income for families, leading to higher consumer spending—an essential driver of economic growth.
-
-Moreover, some countries are introducing tax incentives for green technologies and sustainable practices, aligning economic growth with environmental objectives. Such policies not only support innovation but also pave the way for a transition to a more sustainable economy.
-
-2. Trade Policies
-
-Trade policies have also undergone significant revisions, reflecting the changing dynamics of global commerce. Governments are increasingly focusing on strengthening trade relations with strategic partners while addressing trade imbalances. Recent updates may include the renegotiation of trade agreements to ensure fair practices and protect local industries.
-
-The emphasis on fair trade practices can lead to enhanced economic stability and job preservation in vital sectors. However, the shift towards protectionism in some regions raises concerns about potential trade wars and their impact on global supply chains, which could ultimately affect consumers and businesses alike.
-
-Social Policies: Promoting Equity and Inclusion
-
-1. Healthcare Reforms
-
-Healthcare policy updates are crucial in shaping the societal landscape. Recent reforms aimed at expanding access to affordable healthcare have gained momentum in various countries. These changes often focus on lowering prescription drug prices, expanding insurance coverage, and improving healthcare infrastructure.
-
-Access to quality healthcare is a fundamental right that significantly impacts societal well-being. By addressing healthcare disparities, these reforms can lead to healthier populations, reduced financial burdens on families, and increased productivity in the workforce.
-
-2. Education Policies
-
-Education remains a cornerstone of societal development, and recent national policy updates emphasize the need for accessible and equitable education. Governments are increasingly investing in education systems to enhance quality, promote lifelong learning, and address skill gaps in the workforce.
-
-Policies aimed at reducing student debt, increasing funding for public schools, and promoting vocational training are essential for preparing a skilled workforce that can adapt to changing job markets. By prioritizing education, nations can empower individuals and foster social mobility, ultimately contributing to economic growth.
-
-Environmental Policies: Balancing Growth and Sustainability
-
-1. Climate Action Initiatives
-
-In response to the escalating climate crisis, national policy updates are increasingly focused on environmental sustainability and climate action. Governments are committing to ambitious targets for reducing greenhouse gas emissions, transitioning to renewable energy sources, and promoting sustainable practices across sectors.
-
-These policies not only aim to mitigate the effects of climate change but also create new economic opportunities in green technologies and renewable energy industries. Investing in sustainable infrastructure can lead to job creation while ensuring a healthier planet for future generations.
-
-2. Conservation and Biodiversity
-
-Recent updates to environmental policies also include measures aimed at preserving biodiversity and protecting natural habitats. Governments are recognizing the intrinsic value of ecosystems and the services they provide, from clean air and water to food security.
-
-Policies that promote conservation efforts and sustainable land use are essential for maintaining ecological balance. By protecting biodiversity, nations can enhance resilience to climate change and safeguard the resources that communities rely on for their livelihoods.
-
-The Role of Public Participation and Advocacy
-
-As national policies evolve, public participation and advocacy play a critical role in shaping outcomes. Civic engagement and grassroots movements have become increasingly influential in driving policy changes across various sectors. From climate action to social justice, citizens are mobilizing to demand accountability and transparency from their governments.
-
-The power of advocacy is evident in the growing influence of social media, which provides a platform for individuals and organizations to raise awareness and mobilize support for critical issues. Policymakers are increasingly aware of the need to engage with communities and consider diverse perspectives in the decision-making process.
-
-Conclusion: Embracing Change for a Better Future
-
-National policy updates impacting the economy and society are essential for navigating the challenges of a rapidly changing world. As governments implement reforms aimed at stimulating economic growth, promoting social equity, and ensuring environmental sustainability, it is crucial for stakeholders to remain informed and engaged.
-
-The interconnectedness of economic, social, and environmental policies underscores the need for a holistic approach to governance. By fostering collaboration among government, businesses, and civil society, nations can create a more resilient and equitable future.
-
-In this dynamic landscape, the active participation of citizens, advocacy groups, and businesses is vital to shaping policies that reflect the needs and aspirations of society. As we move forward, embracing change and innovation will be key to addressing the pressing challenges of our time, ultimately leading to a more prosperous and sustainable world for all.`,
-      },
-      3: {
-        title: "Global Summit Addresses Climate Change Challenges",
-        image:
-          "https://placehold.co/600x400/png?text=International+News+World+Map+with+Flags",
-        alt: "International news showing world map with multiple country flags",
-        content: `Leaders from around the world convene to discuss urgent climate action and sustainable development goals.
-
-The urgency of addressing climate change has never been more pronounced, and the recent Global Summit on Climate Change brought together world leaders, scientists, activists, and industry experts to confront the pressing challenges posed by our changing planet. Held in a hybrid format, the summit aimed to facilitate dialogue, share innovative solutions, and foster collaboration among nations to tackle one of the most significant threats to humanity.
-
-The State of Our Planet
-
-As the summit commenced, participants were reminded of the stark realities facing our planet. Reports from the Intergovernmental Panel on Climate Change (IPCC) highlighted alarming trends, including rising global temperatures, increased frequency of extreme weather events, and the loss of biodiversity. These changes pose significant risks not only to the environment but also to public health, food security, and economic stability. The summit aimed to galvanize collective action to mitigate these impacts and promote a sustainable future.
-
-Key Themes and Discussions
-
-Over the course of the summit, several key themes emerged as focal points for discussion, each addressing different aspects of the climate crisis.
-
-1. Mitigation Strategies
-
-A significant portion of the summit was dedicated to exploring mitigation strategies to reduce greenhouse gas emissions. Experts emphasized the need for a multi-faceted approach that includes transitioning to renewable energy sources, enhancing energy efficiency, and adopting sustainable land use practices. Countries shared their plans for achieving carbon neutrality, with many committing to ambitious targets for reducing emissions by 2030.
-
-Notably, the summit spotlighted innovative technologies such as carbon capture and storage (CCS), which holds the potential to significantly reduce emissions from industrial processes. Collaboration between governments and private sectors was highlighted as crucial for scaling these technologies and making them economically viable.
-
-2. Adaptation and Resilience
-
-While mitigation is essential, the realities of climate change necessitate a focus on adaptation and resilience. Discussions centered on how communities can better prepare for and respond to the impacts of climate change. This includes investing in infrastructure that can withstand extreme weather events, improving water management systems, and enhancing agricultural practices to ensure food security.
-
-Countries that are particularly vulnerable to climate impacts shared their experiences and strategies for building resilience. The importance of integrating indigenous knowledge and local practices into adaptation strategies was emphasized, recognizing the valuable insights that local communities can contribute.
-
-3. Financing Climate Action
-
-One of the critical barriers to effective climate action is the availability of funding. The summit underscored the necessity of mobilizing financial resources to support climate initiatives, especially in developing countries that often lack the capacity to implement large-scale projects. Participants discussed innovative financing mechanisms, such as green bonds and climate risk insurance, to attract investment in sustainable development.
-
-The commitment from developed nations to provide financial assistance to developing countries was a significant point of discussion. Many leaders reiterated the promise made in previous agreements to mobilize $100 billion annually to support climate action in the Global South, stressing the need for transparency and accountability in these efforts.
-
-4. Youth Engagement and Advocacy
-
-The role of youth in the climate movement was another pivotal topic at the summit. Young activists from around the world shared their insights and demands for urgent action. Their passionate advocacy highlighted the need for intergenerational equity, emphasizing that the decisions made today will have lasting consequences for future generations.
-
-The summit featured a dedicated session for youth-led initiatives, showcasing innovative projects and campaigns that are driving change at the grassroots level. The inclusion of youth voices is essential, as they represent the demographic most affected by climate change and are vital to shaping a sustainable future.
-
-Global Commitments and Collaborations
-
-As the summit progressed, several notable commitments emerged from participating nations and organizations. Many countries pledged to enhance their Nationally Determined Contributions (NDCs) under the Paris Agreement, setting more ambitious targets to reduce emissions and improve climate resilience. Collaborative initiatives, such as international partnerships to share technology and best practices, were also announced, fostering a spirit of cooperation in the face of a global crisis.
-
-Conclusion: A Call to Action
-
-The Global Summit on Climate Change served as a powerful reminder of the collective responsibility we share in addressing the climate crisis. While the discussions were robust and commitments were made, the real test lies in the implementation of these actions. As participants returned to their respective countries, the urgency to act on climate change was palpable.
-
-In the coming months and years, it is crucial for governments, businesses, and individuals to uphold their commitments and work collaboratively towards a sustainable future. The summit has set the stage for a renewed focus on climate action, but it is a call to action that requires ongoing dedication, innovation, and solidarity.
-
-As we move forward, the message is clear: we have the knowledge and tools necessary to combat climate change. What is needed now is the political will and collective action to turn these solutions into reality. The time for action is now; our planet and future generations depend on it.`,
-      },
-    };
-
-    // Elements
-    const homeSection = document.getElementById("home-section");
-    const newsDetailSection = document.getElementById("news-detail-section");
-    const newsImage = document.getElementById("news-image");
-    const newsTitle = document.getElementById("news-title");
-    const newsContent = document.getElementById("news-content");
-    const backButton = document.getElementById("back-button");
-
-    // Show news detail
-    function showNewsDetail(id) {
-      const news = newsData[id];
-      if (!news) return;
-
-      newsImage.src = news.image;
-      newsImage.alt = news.alt;
-      newsTitle.textContent = news.title;
-      newsContent.textContent = news.content;
-
-      homeSection.classList.add("hidden");
-      newsDetailSection.classList.remove("hidden");
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-
-    // Show home (news list)
-    function showHome() {
-      newsDetailSection.classList.add("hidden");
-      homeSection.classList.remove("hidden");
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-
-    // Attach event listeners to all Read More buttons
-    document.querySelectorAll('button[data-news]').forEach((button) => {
-      button.addEventListener("click", () => {
-        const newsId = button.getAttribute("data-news");
-        showNewsDetail(newsId);
-      });
-    });
-
-    backButton.addEventListener("click", () => {
-      showHome();
-    });
-
-    // Also handle header navigation clicks to show home and scroll to sections
-    const navHome = document.getElementById("nav-home");
-    const navFeatures = document.getElementById("nav-features");
-    const navCatalog = document.getElementById("nav-catalog");
-    const navContact = document.getElementById("nav-contact");
-    const navFaq = document.getElementById("nav-faq");
-
-    const mobileNavHome = document.getElementById("mobile-nav-home");
-    const mobileNavFeatures = document.getElementById("mobile-nav-features");
-    const mobileNavCatalog = document.getElementById("mobile-nav-catalog");
-    const mobileNavContact = document.getElementById("mobile-nav-contact");
-    const mobileNavFaq = document.getElementById("mobile-nav-faq");
-
-    function scrollToSection(id) {
-      showHome();
-      setTimeout(() => {
-        const el = document.getElementById(id);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    }
-
-    navHome.addEventListener("click", (e) => {
-      e.preventDefault();
-      showHome();
-    });
-    navFeatures.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("features");
-    });
-    navCatalog.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("catalog");
-    });
-    navContact.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("contact");
-    });
-    navFaq.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("faq");
-    });
-
-    mobileNavHome.addEventListener("click", (e) => {
-      e.preventDefault();
-      showHome();
-      mobileMenu.classList.add("hidden");
-    });
-    mobileNavFeatures.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("features");
-      mobileMenu.classList.add("hidden");
-    });
-    mobileNavCatalog.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("catalog");
-      mobileMenu.classList.add("hidden");
-    });
-    mobileNavContact.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("contact");
-      mobileMenu.classList.add("hidden");
-    });
-    mobileNavFaq.addEventListener("click", (e) => {
-      e.preventDefault();
-      scrollToSection("faq");
-      mobileMenu.classList.add("hidden");
-    });
-
-    // Clicking the logo also returns home
-    document.getElementById("home-link").addEventListener("click", (e) => {
-      e.preventDefault();
-      showHome();
-    });
-
-    // Comments functionality
-    const commentForm = document.getElementById("comment-form");
-    const commentsList = document.getElementById("comments-list");
-    const commentStatus = document.getElementById("comment-status");
-
-    // Load comments from localStorage
-    function loadComments() {
-      const comments = JSON.parse(localStorage.getItem("unn-comments") || "[]");
-      commentsList.innerHTML = "";
-      if (comments.length === 0) {
-        commentsList.innerHTML = `<p class="text-orange-900 text-center italic">No comments yet. Be the first to comment!</p>`;
-        return;
-      }
-      comments.forEach((comment, index) => {
-        const commentEl = document.createElement("div");
-        commentEl.className = "bg-white rounded-lg p-4 shadow-md";
-        commentEl.innerHTML = `
-          <div class="flex justify-between items-center mb-2">
-            <p class="font-semibold text-orange-900">${escapeHtml(
-              comment.name
-            )}</p>
-            <small class="text-gray-500">${new Date(
-              comment.date
-            ).toLocaleString()}</small>
-          </div>
-          <p class="text-gray-800 whitespace-pre-line mb-2">${escapeHtml(
-            comment.message
-          )}</p>
-          <div>
-            <button class="reply-btn text-orange-700 font-semibold hover:underline focus:outline-none" data-index="${index}" aria-label="Reply to comment by ${escapeHtml(
-          comment.name
-        )}">Reply</button>
-          </div>
-          <div class="replies mt-3 pl-4 border-l-2 border-orange-300 space-y-3">
-            ${
-              comment.replies
-                ? comment.replies
-                    .map(
-                      (reply) => `
-              <div class="bg-orange-50 rounded p-3 shadow-inner">
-                <div class="flex justify-between items-center mb-1">
-                  <p class="font-semibold text-orange-800">${escapeHtml(
-                    reply.name
-                  )}</p>
-                  <small class="text-gray-500">${new Date(
-                    reply.date
-                  ).toLocaleString()}</small>
-                </div>
-                <p class="text-gray-700 whitespace-pre-line">${escapeHtml(
-                  reply.message
-                )}</p>
-              </div>
-            `
-                    )
-                    .join("")
-                : ""
-            }
-          </div>
-        `;
-        commentsList.appendChild(commentEl);
-      });
-      attachReplyListeners();
-    }
-
-    // Escape HTML to prevent XSS
-    function escapeHtml(text) {
-      if (!text) return "";
-      return text.replace(/[&<>"']/g, function (m) {
-        return {
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          '"': "&quot;",
-          "'": "&#39;",
-        }[m];
-      });
-    }
-
-    // Save comments to localStorage
-    function saveComments(comments) {
-      localStorage.setItem("unn-comments", JSON.stringify(comments));
-    }
-
-    // Attach reply button listeners
-    function attachReplyListeners() {
-      document.querySelectorAll(".reply-btn").forEach((button) => {
-        button.addEventListener("click", () => {
-          const index = button.getAttribute("data-index");
-          openReplyForm(index, button);
-        });
-      });
-    }
-
-    // Open reply form below the comment
-    function openReplyForm(commentIndex, button) {
-      // Close any open reply forms
-      const existingForm = document.getElementById("reply-form");
-      if (existingForm) existingForm.remove();
-
-      const replyForm = document.createElement("form");
-      replyForm.id = "reply-form";
-      replyForm.className = "mt-3 space-y-3";
-      replyForm.innerHTML = `
-        <div>
-          <label for="reply-name" class="block text-orange-900 font-semibold mb-1">Your Name</label>
-          <input type="text" id="reply-name" name="reply-name" required placeholder="Your name" class="w-full px-3 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600" autocomplete="name" />
-        </div>
-        <div>
-          <label for="reply-message" class="block text-orange-900 font-semibold mb-1">Your Reply</label>
-          <textarea id="reply-message" name="reply-message" rows="3" required placeholder="Write your reply here..." class="w-full px-3 py-2 border border-orange-400 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"></textarea>
-        </div>
-        <div class="flex space-x-4">
-          <button type="submit" class="bg-orange-700 text-white font-bold py-2 px-6 rounded-md hover:bg-orange-800 transition focus:outline-none focus:ring-4 focus:ring-orange-500">
-            Submit Reply
-          </button>
-          <button type="button" id="cancel-reply" class="text-orange-700 font-semibold hover:underline focus:outline-none">
-            Cancel
-          </button>
-        </div>
-        <p id="reply-status" class="text-green-700 font-semibold hidden"></p>
-      `;
-
-      button.parentElement.appendChild(replyForm);
-      document.getElementById("cancel-reply").addEventListener("click", () => {
-        replyForm.remove();
-      });
-
-      replyForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const name = replyForm.querySelector("#reply-name").value.trim();
-        const message = replyForm.querySelector("#reply-message").value.trim();
-        if (!name || !message) return;
-
-        const comments = JSON.parse(localStorage.getItem("unn-comments") || "[]");
-        if (!comments[commentIndex].replies) comments[commentIndex].replies = [];
-        comments[commentIndex].replies.push({
-          name,
-          message,
-          date: new Date().toISOString(),
-        });
-        saveComments(comments);
-        loadComments();
-        replyForm.remove();
-      });
-    }
-
-    // Handle new comment submission
-    commentForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const name = commentForm["comment-name"].value.trim();
-      const email = commentForm["comment-email"].value.trim();
-      const message = commentForm["comment-message"].value.trim();
-
-      if (!name || !email || !message) return;
-
-      // Simple email validation
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(email)) {
-        alert("Please enter a valid email address.");
-        return;
-      }
-
-      const comments = JSON.parse(localStorage.getItem("unn-comments") || "[]");
-      comments.push({
-        name,
-        email,
-        message,
-        date: new Date().toISOString(),
-        replies: [],
-      });
-      saveComments(comments);
-      loadComments();
-      commentForm.reset();
-      commentStatus.textContent = "Thank you for your comment! It has been added.";
-      commentStatus.classList.remove("hidden");
-      setTimeout(() => {
-        commentStatus.classList.add("hidden");
-        commentStatus.textContent = "";
-      }, 5000);
-    });
-
-    // Initial load of comments
-    loadComments();
   </script>
-</body>
+ </body>
 </html>
